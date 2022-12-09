@@ -1,0 +1,7 @@
+while True:    
+  try:    
+    l= input().split(' ')    
+    l = [int(x) for x in l]    
+    print ((l[0] + l[1] * l[2])/2)    
+  except (EOFError):    
+    break  
